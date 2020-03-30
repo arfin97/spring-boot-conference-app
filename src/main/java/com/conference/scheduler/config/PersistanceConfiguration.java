@@ -8,12 +8,12 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistanceConfiguration {
-    @Bean
-    public DataSource dataSource(){
-        DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
-        dataSourceBuilder.url("jdbc:postgresql://localhost:5432/pluralsight");
-        dataSourceBuilder.password("asdf");
-        dataSourceBuilder.username("postgres");
-        return dataSourceBuilder.build();
-    }
+//    @Bean
+//    public DataSource dataSource(){
+//        DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
+//        dataSourceBuilder.url("jdbc:postgresql://localhost:5432/pluralsight");
+//        dataSourceBuilder.password("asdf");
+//        dataSourceBuilder.username("postgres");
+//        return dataSourceBuilder.build();
+//    }
 }
